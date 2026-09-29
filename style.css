@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+body { background: #fdf2f4; min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px; }
+
+.card { background: #fff; width: 100%; max-width: 440px; padding: 30px; border-radius: 20px; border: 1px solid #fbcfe8; box-shadow: 0 10px 30px #ec48991f; display: flex; flex-direction: column; gap: 20px; }
+.card h1 { color: #9d174d; font-size: 22px; text-align: center; }
+
+.form-group { display: flex; flex-direction: column; gap: 8px; color: #831843; font-size: 14px; font-weight: 600; }
+.input-container { display: flex; gap: 10px; }
+
+input[type="text"] { flex: 1; padding: 12px 16px; border: 1.5px solid #fbcfe8; border-radius: 12px; background: #fff5f7; color: #831843; outline: none; transition: 0.2s; }
+input[type="text"]:focus { border-color: #ec4899; background: #fff; box-shadow: 0 0 0 3px #ec489933; }
+
+button { background: #ec4899; color: #fff; border: none; padding: 12px 20px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: 0.2s; }
+button:hover { background: #db2777; }
+button:active { transform: scale(0.97); }
+
+.resultado { list-style: none; background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: 14px; padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
+.resultado li { font-size: 15px; color: #701a75; display: flex; justify-content: space-between; border-bottom: 1px dashed #fbcfe8; padding-bottom: 8px; }
+.resultado li:last-child { border-bottom: none; padding-bottom: 0; }
+.resultado strong { color: #9d174d; }
