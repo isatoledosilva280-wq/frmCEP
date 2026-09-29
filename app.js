@@ -1,4 +1,3 @@
-app.js
 const form = document.getElementById('form'); // Capturando formulário
 const cepInput = document.getElementById('cep'); // Capturando input do CEP
 
